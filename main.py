@@ -1,10 +1,3 @@
-try:
-    import os
-    print("Installing Libraries...")
-    os.system("pip install windows-curses")
-except:
-    pass
-
 from curses import wrapper
 from Mapping import MapGame
 import curses
